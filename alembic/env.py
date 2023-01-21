@@ -17,6 +17,10 @@ if config.config_file_name is not None:
 
 from ecommerce import config as config_env
 from ecommerce.db import Base
+from ecommerce.user.models import User
+
+
+
 # add your model's MetaData object here
 # for 'autogenerate' support
 # from myapp import mymodel

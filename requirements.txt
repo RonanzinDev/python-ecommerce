@@ -2,3 +2,7 @@ fastapi[all]
 SQLAlchemy
 psycopg2==2.9.1
 alembic
+passlib[argon2]
+pydantic
+email-validator
+uvicorn
