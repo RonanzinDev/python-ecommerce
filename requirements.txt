@@ -1,0 +1,4 @@
+fastapi[all]
+SQLAlchemy
+psycopg2==2.9.1
+alembic
