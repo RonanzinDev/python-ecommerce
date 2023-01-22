@@ -6,3 +6,4 @@ passlib[argon2]
 pydantic
 email-validator
 uvicorn
+celery

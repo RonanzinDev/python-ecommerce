@@ -9,6 +9,7 @@ class User(Base):
     name = Column(String(50))
     email = Column(String(255), index=True)
     password = Column(String(255))
+    cart = relationship("Cart", back_populates="user_cart")
     
     def __init__(self, name: str, email: str, password: str, *args, **kwargs):
         self.name = name
