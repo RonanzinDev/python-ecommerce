@@ -18,6 +18,7 @@ You will be able to:
 """
 
 app = FastAPI(
+    redoc_url="/redocs",
     title="EcommerceApp",
     description=description,
     version="0.0.1",

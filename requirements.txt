@@ -7,3 +7,14 @@ pydantic
 email-validator
 uvicorn
 celery
+boto3
+pytest
+httpx
+anyio
+twisted
+faker
+pytest-asyncio
+pytest-tornasync
+pytest-trio
+pytest-twisted
+service_identity
